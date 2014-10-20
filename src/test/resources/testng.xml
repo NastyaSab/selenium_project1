@@ -1,0 +1,33 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+
+<suite name="SeleniumTests" verbose="1" >
+
+<test name="SmokeTest" >
+    <classes>  <class name="project_Rozetka.SmokeTest" />  </classes>
+</test>
+
+<test name="MenuTest" >
+    <classes> <class name="project_Rozetka.MenuTest" /> </classes>
+</test>
+
+<test name="AuthorizationTest" >
+    <classes> <class name="project_Rozetka.AuthorizationTest" /> </classes>
+</test>
+
+<test name="OnlineOrderTest" >
+    <classes> <class name="project_Rozetka.OnlineOrderTest" /> </classes>
+</test>
+
+<test name="OnlineOrderNegativeTest" >
+    <classes> <class name="project_Rozetka.OnlineOrderNegativeTest" /> </classes>
+</test>
+
+
+</suite>
+
+
+
+
+
+
